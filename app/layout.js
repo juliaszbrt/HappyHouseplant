@@ -1,6 +1,6 @@
 'use client';
 import './globals.css'
-import './chatBot.js'
+
 
 export default function RootLayout({ children }) {
   return (

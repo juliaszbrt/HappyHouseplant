@@ -8,6 +8,7 @@ import Section2 from "./Section2";
 import Earth from "./Earth";
 import { Londrina_Solid } from '@next/font/google';
 import { Poppins } from '@next/font/google';
+import './chatBot.js';
 
 const londrina = Londrina_Solid({
   subsets: ['latin'],
