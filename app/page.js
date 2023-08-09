@@ -1,3 +1,4 @@
+'use client';
 import Banner from "./Banner";
 import Section1 from "./Section1";
 import Water from "./Water";
