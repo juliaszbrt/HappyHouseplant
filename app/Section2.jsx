@@ -10,7 +10,7 @@ const Section2 = () => {
                   <p className="text-[#34492C] text-center text-[0.8rem] mb-[0.5rem] tracking-[2.5px] font-black">Monstera</p>
                   <p className="text-[#34492C] text-center text-[0.8rem] tracking-[2.5px]">Prefers humid conditions</p>
                 </div>
-                <Image width={2048} height={2048} src='/monsteraPlant.png' className="object-contain h-[9rem] w-[9rem] md:h-[14rem] md:w-[14rem]"></Image>
+                <Image width={2048} height={2048} src='/monsteraPlant.png' className="object-contain h-[9rem] w-[9rem] md:h-[14rem] md:w-[14rem]" alt="monstera plant"></Image>
                 
             </div>
             <div className="flex gap-[25px] justify-center items-center pb-[1.5rem] px-[2rem] md:p-0">
@@ -18,7 +18,7 @@ const Section2 = () => {
                   <p className="text-[#34492C] text-center text-[0.8rem] mb-[0.5rem] tracking-[2.5px] font-black">Cactus</p>
                   <p className="text-[#34492C] text-center text-[0.8rem] tracking-[2.5px]">Grows flowers!!</p>
                 </div>
-                <Image width={2048} height={2048} src='/redCactus.png' className="object-contain h-[9rem] w-[9rem] md:h-[15rem] md:w-[15rem]"></Image>
+                <Image width={2048} height={2048} src='/redCactus.png' className="object-contain h-[9rem] w-[9rem] md:h-[15rem] md:w-[15rem]" alt="red cactus"></Image>
             </div>
         </div>
     </div>

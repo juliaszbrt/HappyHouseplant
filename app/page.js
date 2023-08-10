@@ -17,7 +17,7 @@ const londrina = Londrina_Solid({
 
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['200']
+  weight: ['400', '700']
 })
 
 export default function Home() {
@@ -26,7 +26,9 @@ export default function Home() {
       <div className={londrina.className}>
         <Banner /> 
       </div>
+      <div className={poppins.className}>
         <Section1 />
+      </div>
       <div className={londrina.className}>
         <Water />
       </div>
@@ -34,7 +36,9 @@ export default function Home() {
         <Names />
       </div>
       <Houseplants />
-      <Section2 />
+      <div className={poppins.className}>
+        <Section2 />
+      </div>
       <div className={londrina.className}>
         <Earth />
       </div>

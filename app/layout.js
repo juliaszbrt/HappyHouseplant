@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Happy Houseplant</title>
-        <meta></meta>
+        <title>Houseplant</title>
+        <meta name="description" content="Provides user with plant care tips and advice"></meta>
       </head>
       <body>
         {children}
