@@ -29,6 +29,9 @@ export default function Home() {
       <div className={poppins.className}>
         <Section1 />
       </div>
+      <div>
+        <imageUpload />
+      </div>
       <div className={londrina.className}>
         <Water />
       </div>
